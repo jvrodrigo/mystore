@@ -27,13 +27,5 @@
    <servlet-name>dispatcher</servlet-name>
    <url-pattern>/</url-pattern>
  </servlet-mapping>
- <context-param>
-    <param-name>contextConfigLocation</param-name>
-    <param-value>/WEB-INF/spring/dispatcher-config.xml</param-value>
-</context-param>
-
-<!-- Creates the Spring Container shared by all Servlets and Filters -->
-<listener>
-    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-</listener>
+ 
 </web-app>

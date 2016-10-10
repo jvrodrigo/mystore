@@ -139,7 +139,7 @@
 		<!-- <groupId>com.rometools</groupId> -->
 		<!-- <artifactId>rome</artifactId> -->
 		<!-- <version>1.5.0</version> -->
-		<!-- </dependency>-->
+		<!-- </dependency> -->
 		<!-- JSR 303 with Hibernate Validator -->
 		<!-- <dependency> -->
 		<!-- <groupId>javax.validation</groupId> -->
@@ -177,6 +177,20 @@
 			<artifactId>spring-security-web</artifactId>
 			<version>${org.springframework.security-version}</version>
 		</dependency>
+
+		<!-- DataBase conect JDBC -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>6.0.4</version>
+		</dependency>
+		<!-- Persistence API -->
+		<dependency>
+			<groupId>javax.persistence</groupId>
+			<artifactId>persistence-api</artifactId>
+			<version>1.0.2</version>
+		</dependency>
+
 	</dependencies>
 
 </project>

@@ -12,7 +12,7 @@ public class GenericResponse {
 	private ArrayList<Object> items;
 	private String message;
 	private int code;
-	private Header header;
+//	private Header header;
 	
 	// Constructor
 	public GenericResponse() {
@@ -22,7 +22,7 @@ public class GenericResponse {
 		this.items = new ArrayList<Object>();
 		this.message = "No message";
 		this.code = 0;
-		this.header = new Header("from", "ERP to sale");
+//		this.header = new Header("from", "ERP to sale");
 	}
 	/**
 	 * @return the totalCount
@@ -99,14 +99,14 @@ public class GenericResponse {
 	/**
 	 * @return the header
 	 */
-	public Header getHeader() {
-		return header;
-	}
+//	public Header getHeader() {
+//		return header;
+//	}
 	/**
 	 * @param header the header to set
 	 */
-	public void setHeader(Header header) {
-		this.header = header;
-	}
+//	public void setHeader(Header header) {
+//		this.header = header;
+//	}
 	
 }
